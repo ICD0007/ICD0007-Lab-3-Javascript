@@ -8,7 +8,7 @@ for (var i = 0; i < listElements.length; i++) {
     })
     listElements[i].addEventListener("mouseout", function () {
         this.style.color = "#fff";
-        this.style["background-color"] = "#383E4C";
+        this.style["background-color"] = "";
     })
 }
 
@@ -72,6 +72,7 @@ var greenBtn = document.querySelector(".feature-content-link.green-btn");
 //("feature-content-link green-btn");
 var greenBtnClick = function(){
     greenBtn.classList.add("feature-content-link","red-btn");
+    document.getElementById("mylink-url").href = "http://www.github.com/kenny007";
     //greenBtn.classList.remove("feature-content-link","green-btn");
     
     greenBtn.innerText="ICD007 Button";
