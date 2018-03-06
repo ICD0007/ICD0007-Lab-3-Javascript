@@ -72,8 +72,8 @@ var greenBtn = document.querySelector(".feature-content-link.green-btn");
 //("feature-content-link green-btn");
 var greenBtnClick = function(){
     greenBtn.classList.add("feature-content-link","red-btn");
-    document.getElementById("mylink-url").href = "http://www.github.com/kenny007";
-    //greenBtn.classList.remove("feature-content-link","green-btn");
+    window.location.href = "http://www.github.com/kenny007";
+    //greenBtn.classList.remohrefve("feature-content-link","green-btn");
     
     greenBtn.innerText="ICD007 Button";
 }
